@@ -1,0 +1,13 @@
+<svg [attr.height]="radius * 2 + 10" [attr.width]="radius * 2">
+  <g [attr.transform]="'translate('+ radius +', '+ radius +')'">
+    <text *ngIf="centerValue" class="value" text-anchor="middle" dy="-10" [attr.fill]="centerValueColor">
+      {{centerValue}}
+    </text>
+    <text *ngIf="centerDescription" class="description" text-anchor="middle" dy="10" [attr.fill]="centerDescriptionColor">
+      {{centerDescription}}
+    </text>
+    <g *ngFor="let path of paths; let i = index">
+      <path [attr.d]="path" [style.fill]="colors(i)"></path>
+    </g>
+  </g>
+</svg>

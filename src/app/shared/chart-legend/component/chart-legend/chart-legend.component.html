@@ -1,0 +1,7 @@
+<div class="legend-item" *ngFor="let item of legend; let itemIndex = index">
+  <div class="color" [ngStyle]="{'background-color': color(item, itemIndex)}"></div>
+  <div class="meta">
+    <div class="label">{{item.label}}</div>
+    <div class="description">{{item.description}}</div>
+  </div>
+</div>

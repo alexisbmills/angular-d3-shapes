@@ -1,0 +1,33 @@
+.legend-item {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+  align-items: flex-start;
+}
+
+.legend-item:last-of-type {
+  padding-bottom: 0;
+}
+
+.color {
+  width: 12px;
+  height: 12px;
+  margin-top: 2px;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #565656;
+}
+
+.description {
+  font-size: 14px;
+  color: #b3b3b3;
+}

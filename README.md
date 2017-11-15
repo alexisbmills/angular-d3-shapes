@@ -1,4 +1,16 @@
-# AngularD3Shapes
+# Angular D3 Demo
+
+
+
+Shamelessly inspired by examples in [Using Angular to render DOM with D3 generators](https://www.hypertrack.com/blog/2017/07/17/using-angular-render-dom-d3-generators/).
+
+## Demo
+You got this...
+```
+yarn install
+npm start
+```
+...then browse to `localhost:4200`.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
